@@ -1,0 +1,15 @@
+Regular Expression - RE
+Bizga biror bir ma'lumotni shablonga tushish yoki tushmasligini tekshirishimiz kerak.
+Masalan:
+Foydalanuvchi rostan ham:
+1. Username
+2. Telefon nomer
+3. email
+4. IP adrees
+5. token
+vahokazo larni kiritishda biror bir algoritm yozmasdan shablon yaratib foydalanuvchi yuborayotgan
+habarni filterlash kerak bo'lganda ishlatamiz.
+
+
+Regular rules
+. - Ixtiyoriy belgilar uchun ishlartiladi.

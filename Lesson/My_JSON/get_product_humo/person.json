@@ -1,0 +1,11 @@
+{
+    "name": "Jason",
+    "age": 12,
+    "family": true,
+    "school": 29,
+    "children": [
+        "Ali",
+        "Bobur",
+        "Toshmat"
+    ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/SQLite3/PYSQL3T/create_connection.py" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/TutopointSQLite3/SQLAdvenced/FOREIGN KEY/create_one_to_many.py" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/TutopointSQLite3/SQLAdvenced/FOREIGN KEY/insert_one_to_many.py" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/TutopointSQLite3/SQLAdvenced/FOREIGN KEY/retrieve_one_to_many.py" dialect="SQLite" />
+  </component>
+</project>

@@ -1,0 +1,17 @@
+Exceptions - Bular dastur kodi bajarilayotganda sodir bo'ladigan xatoliklar.
+SQLite3 da quyidagi xatoliklar mavjud:
+
+1. DatabaseError - Ma'lumotlar bazasi bilan bog'liq bo'lgan har qanday xato 'DatabaseError'ni keltirib chiqaradi.
+
+2. IntegrityError - IntegrityError DatabaseError ning quyi sinfidir va maʼlumotlar yaxlitligi muammosi mavjud boʻlganda paydo boʻladi.
+                    Masalan, barcha jadvallarda foreign ma'lumotlar yangilanmaydi, bu esa ma'lumotlarning nomuvofiqligiga olib keladi.
+
+3. ProgrammingError - Dasturlash xatosi sintaksis xatolar mavjud bo'lganda yoki jadval topilmasa yoki funksiya noto'g'ri parametrlar/
+                      argumentlar soni bilan chaqirilganda paydo bo'ladi.
+
+4. OperationalError - Ushbu xatolik ma'lumotlar bazasi operatsiyalari muvaffaqqiyatsiz tugashi bilan yuzaga keladi, masalan, noodatiy uzilish.
+                      Bu dasturchining aybi emas.
+
+5. NotSupportedError - Ma'lumotlar bazasi  tomonidan aniqlanmagan yoki qo'llab-quvvatlanmagan ba'zi usullardan foydalanganda,
+                       bu 'NotSupportedError' istisnosini keltirib chiqaradi.
+

@@ -1,0 +1,69 @@
+### SQLite nime?
+SQLite - bu mustaqil, serversiz, nol konfiguratsiya, tranzaksiyaviy SQL ma'lumotlar bazasi mexanizmini
+amalga oshiradigan jarayon ichidagi kutubxona. Bu nol konfiguratsiya qilingan ma'lumotlar bazasi,
+ya'ni boshqa ma'lumotlar bazalari kabi uni tizimingizda sozlashingiz shart emas.
+
+### Nima uchun SQLite?
+1. SQLite ishlashi uchun alohida server jarayoni yoki tizim kerak emas (serversiz).
+2. SQLite nol konfiguratsiyaga ega, ya'ni sozlash yoki boshqarish kerak emas.
+3. To'liq SQLite ma'lumotlar bazasi bitta o'zaro kross platformali disk faylida saqlanadi.
+4. SQLite juda kichik va engil, toʻliq sozlangan holatda 400KiB dan kam yoki
+   ba'zi funksiyalar oʻtkazib yuborilgan holda 250KiB dan kam joyni egallaydi.
+5. SQlite ni ishga tushurish uchun hech qanday qo'shimcha kutubxonlarni o'rantish shart emas.
+6. SQLite tranzaktsiyalari to'liq ACID-mos keladi, bu bir nechta jarayonlar yoki oqimlardan xavfsiz kirish imkonini beradi.
+7. SQLite SQL92 (SQL2) standartida joylashgan so'rovlar tilining ko'pgina xususiyatlarini qo'llab-quvvatlaydi.
+8. SQLite ANSI-C-da yozilgan va oddiy va ishlatish uchun qulay API taqdim etadi.
+9. SQLite UNIX (Linux, Mac OS-X, Android, iOS) va Windows (Win32, WinCE, WinRT) da mavjud.
+
+### SQLite cheklovlari
+1. RIGHT OUTER JOIN, FULL OUTER JOIN
+- Faqat LEFT OUTER JOIN ni qo'llab quvatlaydi.
+
+2. ALTER TABLE
+- Buyrug'ining variantlari sifatida RENAME TABLE va ADD COLUMN ni qo'llab quvatlaydi.
+- DROP COLUMN, ALTER COLUMN, ADD CONSTRAINT ni esa qo'llab quvatlamaydi.
+
+3. Triger supported
+- FOR EACH ROW trigerlar qo'llab quvatlanadi, lekin FOR EACH STATEMENT emas.
+
+4. VIEWs
+- SQlite faqatgina ko'rish va o'qish uchun. DELETE, INSERT, va UPDATE so'rovlarida amalga oshira olmaydi.
+
+5. GRANT and REVOKE
+- Qo'llanilishi mumkin bo'lgan yagona ruxsatnomalar asosiy operatsion tizimning oddiy fayllarga kirish ruxsatlaridir.
+
+
+### SQLite buyruqlari
+Relyatsion ma'lumotlar bazalari bilan ishlash uchun standart SQLite buyruqlari SQLga o'xshaydi.
+Bular: CREATE, SELECT, INSERT, UPDATE, DELETE and DROP.
+
+Bu buruqlarni ishlash hususiyatiga ko'ra guruhlarga bo'lish mumikin.
+
+
+DDL - Data definition language    -----  Ma'lumotlarni aniqlash tili
+
+1. CREATE
+- Ma'lumotlar bazasida yangi jadval, jadval ko'rinishi yoki boshqa ob'ekt yaratadi.
+
+2. ALTER
+- Mavjud ma'lumotlar bazasi ob'ektini, masalan, jadvalni o'zgartiradi.
+
+3. DROP
+- Butun jadvalni, jadval ko'rinishini yoki ma'lumotlar bazasidagi boshqa ob'ektni o'chiradi.
+
+
+DML - Data Manipulation Language    ----   Ma'lumotlarni manipulatsiya qilish tili.
+
+1. INSERT
+- Ma'lumotlarni yozishda ishlatiladi.
+
+2. UPDATE
+- Yozilgan ma'lumotlarni o'zgartirishda ishlatiladi.
+
+3. DELETE
+- Yozilgan ma'lumotlarni o'chirishda ishlatiladi.
+
+DQL - Data Query Language    -----    Ma'lumotlar so'rovi tili
+
+1. SELECT
+- Bir yoki bir nechta bir nechta jadvallardan ma'lumotlarni oladi.

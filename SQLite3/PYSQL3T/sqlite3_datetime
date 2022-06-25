@@ -1,0 +1,19 @@
+Python SQLite3 ma'lumotlar bazasida biz datatime modulini import qilish orqali sana yoki vaqtni
+osongina saqlashimiz mumkin. Quyidagi formatlar sana uchun foydalanishingiz mumkin bo'lgan eng
+keng tarqalgan formatlardir:
+
+1. YYYY-MM-DD
+
+2. YYYY-MM-DD HH:MM
+
+3. YYYY-MM-DD HH:MM:SS
+
+4. YYYY-MM-DD HH:MM:SS.SSS
+
+5. HH:MM
+
+6. HH:MM:SS
+
+7. HH:MM:SS.SSS
+
+8. now
