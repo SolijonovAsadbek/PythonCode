@@ -21,19 +21,44 @@
 # Simple Function
 # Decorator - bu Funksiya ichida funksiya qabul qilivchi funksiyaga aytiladi.
 # Decorator
-def decor(func):
-    def beauty(*args):
-        print(f'{args} yig`indisi: {func(*args)}')
+# def decor(func):
+#     def beauty(*args):
+#         print(f'{args} yig`indisi: {func(*args)}')
+#
+#     return beauty
+#
+#
+# @decor
+# def summa(*args):
+#     add = 0
+#     for item in args:
+#         add += item
+#     return add
+#
+#
+# summa(1, 2, 3)
+# lambda funksiya
+# square = lambda x: (x ** 2, 'hello');  # Nomsiz funksiya.
+#
+# print(square(4))
 
-    return beauty
+
+# standard funksiya
+# def another_square(x):  # Nomlangan funksiya.
+#     return x ** 2
 
 
-@decor
-def summa(*args):
-    add = 0
-    for item in args:
-        add += item
-    return add
+# natija = (lambda x: x ** 3)(4)
+# print(natija)
 
+# def second(x):
+#     return x[1]
+#
+#
+# a = [(2, 123), (34, 90), (112, 1223), (1, 2)]
+# # a.sort(key=second)
+# a.sort(key=lambda x: x[1])
+# print(a)
 
-summa(1, 2, 3)
+natija = (lambda x: (x % 2 and 'Toq' or 'Juft'))(1)
+print(natija)
