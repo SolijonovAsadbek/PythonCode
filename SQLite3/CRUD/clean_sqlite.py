@@ -2,7 +2,7 @@ import sqlite3
 from employee_class import Employee
 
 # Employee klasi yordamida ishchilarning ma'lumotlari obyektlarini yaratib olamiz.
-emp1 = Employee('Ergashev', 'Baxtiyor', 2300000)
+# emp1 = Employee('Ergashev', 'Baxtiyor', 2300000)
 # emp2 = Employee('Boymirzayev', 'Hojimirza', 2400000)
 # emp3 = Employee('Nishonboyev', 'Jamshid', 2500000)
 # emp4 = Employee('Turg\'unov', 'Tursunpo\'lot', 2600000)

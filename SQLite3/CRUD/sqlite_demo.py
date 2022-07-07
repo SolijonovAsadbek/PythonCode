@@ -47,7 +47,7 @@ cur = conn.cursor()
 
 # Quyidagi usullar yordamida o'zgaruvchilarni SQL so'roviga uzatish.
 # 4 - 5 - usullar
-# cur.execute(f"""INSERT INTO employee VALUES ('{emp4.fname}', '{emp4.lname}', '{emp4.pay}')""")
+# cur.execute(f"""-- INSERT INTO employee VALUES ('{emp4.fname}', '{emp4.lname}', '{emp4.pay}')""")
 # cur.execute("""INSERT INTO employee VALUES ("{}", "{}", "{}")""".format(emp5.fname, emp5.lname, emp5.pay))
 # conn.commit()
 
@@ -117,5 +117,5 @@ cur = conn.cursor()
 # cur.execute("""DELETE FROM employee WHERE fname=:fname and lname=:lname""",
 #             {'fname': emp1.fname, 'lname': emp1.lname})
 # conn.commit()
-
+#
 conn.close()

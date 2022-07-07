@@ -4,7 +4,6 @@ con = sqlite3.connect('D:/DB/chinook/chinook.db')
 cur = con.cursor()
 
 
-def records(name):
+def search(name):
     return cur.execute("""SELECT * FROM customers WHERE FirstName=?""", (name,)).fetchall()
-
 

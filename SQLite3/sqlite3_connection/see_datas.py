@@ -26,4 +26,4 @@ cur = con.cursor()
 
 # print(qtyobj.fetchmany(2))  # Limitni ko'rsatishda ishlatiladi.
 # print(qtyobj.fetchone())  # Faqat bittasini qidirib topishda ishlatiladi
-# print(qtyobj.fetchall())  # Hammasini qidirishda topishda ishlatiladi.
+# print(qtyobj.fetchall())  # Hammasini qidirishda ishlatiladi.

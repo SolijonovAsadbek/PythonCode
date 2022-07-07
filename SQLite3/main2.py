@@ -1,4 +1,4 @@
-from main import records
+from main import search
 
-record = records('Mark')
+record = search('Mark')
 print(record)

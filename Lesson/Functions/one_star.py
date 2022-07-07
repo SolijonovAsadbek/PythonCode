@@ -58,5 +58,5 @@ def total_dev(*numbers):
     return my_dict
 
 
-res = total_dev(0, 2, 10, 4, 5, 6, 7902101)
+res = total_dev(0, 2, 10, 4, 5, 6, 7902)
 pprint(res)

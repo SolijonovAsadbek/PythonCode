@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="chinook.db" uuid="d378c14b-c2f6-4afb-86f2-b2f502eb54ef">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../DB/chinook/chinook.db</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="chinok" uuid="0f57b0d7-768c-4e8b-b928-f56368c68e38">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
@@ -20,11 +13,11 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="example" uuid="1d9a52a5-8661-46fc-882e-bc3d7ddf1afe">
+    <data-source source="LOCAL" name="example [3]" uuid="96a5a4c8-6924-4197-b87a-26f95595589f">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:D:\PythonCode\TutopointSQLite3\SQLAdvenced\FOREIGN KEY\example.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:D:\PythonCode\SQLite3\sqlite3_connection\example.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
       <libraries>
         <library>
@@ -32,11 +25,11 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="example [2]" uuid="4d59b4de-e6a8-4de7-8f0c-0ca9f6a11e4a">
+    <data-source source="LOCAL" name="employees" uuid="c443081d-9ea7-47f6-a617-4030f43f9db2">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:D:\PythonCode\TutopointSQLite3\SQLAdvenced\FOREIGN KEY\example.db-journal</jdbc-url>
+      <jdbc-url>jdbc:sqlite:D:\PythonCode\utils\database\employees.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
       <libraries>
         <library>
